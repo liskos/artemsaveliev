@@ -6,4 +6,6 @@ for i1 in "FNS":
                 for i5 in "FNS":
                     k += 1
                     i = i1 + i2 + i3 + i4 + i5
-                    print(k, i)
+                    if k == 157:
+                        print(i)
+                        break
